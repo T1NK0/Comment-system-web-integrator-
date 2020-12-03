@@ -1,0 +1,40 @@
+﻿body {
+}
+
+#login-box {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 50px;
+    margin-top: 250px;
+}
+
+#News-Box {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 50px;
+}
+
+#Specific-News {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 50px;
+}
+
+.comment-author-text {
+    color: #128ee9;
+    font-weight: 500;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+#Single-News {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#CreateUser-Box {
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px #888888;
+    padding: 50px;
+    margin-top: 250px;
+}

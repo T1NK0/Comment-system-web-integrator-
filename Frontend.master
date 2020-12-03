@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Frontend.master.cs" Inherits="Frontend" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <!-- FONTAWESOME -->
+    <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+    <!-- http://www.bootstrapcdn.com/ -->
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/flatly/bootstrap.min.css" rel="stylesheet" />
+    <link href="Assets/css/frontend.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheetFrontend.css" rel="stylesheet" />
+    <script src="ckeditor/ckeditor.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div>
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="Default.aspx">Roskilde Breaking News</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li><a href="Default.aspx">Home</a></li>
+                            <li><a href="Login.aspx">Login</a></li>
+                            <li><a href="CreateUser.aspx">Opret Bruger</a></li>
+                            <li><asp:LinkButton ID="LinkButton_logud" runat="server" OnClick="LinkButton_logud_Click">Log ud</asp:LinkButton></li>
+                        </ul>
+                    </div>
+                </nav>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
